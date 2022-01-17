@@ -22,11 +22,11 @@ Windows 11 Configuration:
 
 Reboot pc
 
-3. Install/enable device guard:
+3. Install/enable Device Guard:
 
 <img width="830" alt="Screenshot 2022-01-17 153521" src="https://user-images.githubusercontent.com/6840466/149796019-8281de6a-9c0f-450c-bc54-924415ba509a.png">
 
-4. Configure Application Guard [for smooth brosing experience, if you want more security dont enable following but watching youtube will suck :)]
+4. Configure Application Guard [for smooth browsing experience, if you want more security dont enable following but watching youtube will suck :)]
 
 <img width="1079" alt="install_device_guard_2_2" src="https://user-images.githubusercontent.com/6840466/149801090-3088cfa2-5b18-488c-aa4f-debd6cf4837c.png">
 
@@ -46,18 +46,18 @@ Reboot pc
 
 <img width="903" alt="windows_update_disable2" src="https://user-images.githubusercontent.com/6840466/149802090-8a33439c-19a0-4e89-989d-6769164a4d57.png">
 
-- Reboot pc to loginscreen and plugin network cable. Do not login yet! If you have connected to the internet before start from the beginning
+- Reboot pc to loginscreen and plugin network cable. Do not login yet! If you have connected to the internet before start from the beginning!
 	Wait till updates are installed (aprox. 10min)
 
 - Go to Windows Update and install the updates which did not get installed before
 
 - Go to Windows Update and install optional driver updates
 
-- Do not install any drivers outside of Windows Update unless necessary!
+- Do not install any drivers outside of Windows Update unless absolutly necessary!
 
 - Reboot pc
 
-7. Create a normal User Account and use it as default (i prefer local accounts
+7. Create a normal User Account and use it as default (I prefer local accounts)
 
 - Set UAC to maximum
 
@@ -116,9 +116,11 @@ Annotations:
 
 - You can do additional steps for privacy concerns but this should make your Windows 11 PC really hard to hack but you still will be tracked! Nothing is 100% safe. Always install the newest updates and do not do anything illegal!
 
-Pardon me for my bad english but they (political parties in germany [Yes all the big ones! They worked together with billionaires because i told them the truth. They are incompetent, corrupt, cowards. Yes I am ANGRY 😡 ]) brainwashed me and im just recovering. Had to train for a few years to recover.
+Pardon me for my bad english but they brainwashed me and im just recovering. (Political parties in germany [Yes all the big ones! They worked together with billionaires because i told them the truth. They are incompetent, corrupt, cowards. Yes I am ANGRY 😡 ]) Had to train for a few years to recover.
 See my facebook account https://www.facebook.com/profile.php?id=100070019901989
 Also try to use a Pixel 6 with GrapheneOS. Will try to make a guide for it in the future if they do not get me before.
+
+NOW WE HAVE THE TOOLS TO FIGHT BACK. Took a long long time.
 
 NEVER GIVE UP
 
