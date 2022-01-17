@@ -141,9 +141,10 @@ Annotations:
 
 - Try to use a VPN
 
-- You can do additional steps for privacy concerns (not covered in this guide). This guide should make your Windows 11 PC really hard to hack but you still will be tracked! Nothing is 100% safe. The Germans (government, industry, billionaires etc.) should not be able to hack you, maybe the NSA. Always install the newest updates and do not do anything illegal!
+- You can do additional steps for privacy concerns (not covered in this guide). This guide should make your Windows 11 PC really hard to hack but you still will be tracked! Nothing is 100% safe. The Germans (government, industry, billionaires etc.) should not be able to hack you (except with expensive 0-days and they should get fixed fast, maybe play the honeypot *g*), maybe the NSA. Always install the newest updates and do not do anything illegal!
 
-Pardon me for my bad english but they brainwashed me and im just recovering. (Political parties in germany [Yes all the big ones! They worked together with german billionaires because i told them the truth and knew some things they call "secrets" (criminal acts) but in my opinion everybody should now. They are incompetent, corrupt, cowards. Yes I am ANGRY 😡 ]) Had to train for a few years to recover.
+Pardon me for my bad english but they brainwashed me (no joke!) and I am still recovering. (Political parties in germany [Yes all the big ones! They worked together with german billionaires because i told them the truth and knew some things they call "secrets" (criminal acts) but in my opinion everybody should now. They are incompetent, corrupt, cowards. Yes I am ANGRY 😡 ]) Had to train for a few years to recover.
+
 See my facebook account https://www.facebook.com/profile.php?id=100070019901989
 
 Also try to use a Pixel 6 with GrapheneOS as a mobile device. Will try to make a guide for it in the future if they do not get me before.
@@ -301,9 +302,10 @@ Anmerkungen:
 
 - Versuchen Sie ein VPN zu nutzen
 
-- Sie können weitere Schritte durchführen um Ihre Privatssphäre zu schützen, welche hier nicht gelistet sind. Diese Anleitung sollte Ihren Windows 11 PC ziemlich gut gegen Hackangriffe abschützen aber Sie können noch immer getracked werden. Nichts ist 100% sicher. Die deutschen (Regierung, Industrie, Milliardäre) sollten Sie nicht mehr hacken können, wahrscheinlich aber noch die NSA. Installieren Sie immer die neuesten Updates und machen Sie nicht illegales!
+- Sie können weitere Schritte durchführen um Ihre Privatssphäre zu schützen, welche hier nicht gelistet sind. Diese Anleitung sollte Ihren Windows 11 PC ziemlich gut gegen Hackangriffe abschützen aber Sie können noch immer getracked werden. Nichts ist 100% sicher. Die deutschen (Regierung, Industrie, Milliardäre) sollten Sie nicht mehr hacken können (außer mit teuren 0-days und diese sollten schnell gefixt werden, spielen Sie doch den Honeypot *g*), wahrscheinlich aber noch die NSA. Installieren Sie immer die neuesten Updates und machen Sie nicht illegales!
 
-Man hat mich in der Vergangenheit einer Gehirnwäsche unterzogen. (Politische Parteien in Deutschland [Ja, alle großen! Sie haben sich damals mit deutschen Milliardären zusammengeschlossen weil ich Ihnen die Wahrheit erzählt habe und einige Dinge wußte welche Sie als "Geheimnisse" (kriminelle Handlungen) bezeichen, wo ich aber der Überzeugung bin dass dies alle Wissen sollten. Sie sind inkompetent, korrupt und feige. Ja ich bin wütdend😡 ]) Ich muste ein paar Jahre trainieren um wieder auf die Beine zu kommen.
+Man hat mich in der Vergangenheit einer Gehirnwäsche unterzogen, kein Scherz!. (Politische Parteien in Deutschland [Ja, alle großen! Sie haben sich damals mit deutschen Milliardären zusammengeschlossen weil ich Ihnen die Wahrheit erzählt habe und einige Dinge wußte welche Sie als "Geheimnisse" (kriminelle Handlungen) bezeichen, wo ich aber der Überzeugung bin dass dies alle Wissen sollten. Sie sind inkompetent, korrupt und feige. Ja ich bin wütdend😡 ]) Ich muste ein paar Jahre trainieren um wieder auf die Beine zu kommen.
+
 Schaut euch bitte meinen Facebook-Account https://www.facebook.com/profile.php?id=100070019901989 an.
 
 Versucht auch ein Pixel 6 mit GrapheneOS zu nutzen. Ich werde versuchen in Zukunft auch eine Anleitung hierfür zu erstellen sofern Sie mich nicht vorher wieder in die Finger bekommen.
