@@ -4,15 +4,17 @@ Prerequisites:
 
 Windows 11 Pro
 
-Modern hardware (personal recommendation: AMD Ryzen 5 PRO 5650G, try to use at least a modern CPU), ECC-RAM, shielded network cables (SF/FTP), do no not use a case with plastic side pandels (all metal!, you can also wrap your case with multiple layers of aluminum foil [10 layers at least]) [EM-Shielding], try to avoid WIFI connections (at least use WPA3 if you need WIFI)
+Modern hardware (personal recommendation: AMD Ryzen 5 PRO 5650G [still do not own one, do not buy all please ;)], try to use at least a modern CPU), ECC-RAM, shielded network/ethernet cables (SF/FTP), do no not use a case with plastic side panels (all metal!, you can also wrap your case with multiple layers of aluminum foil [10 layers at least]) [EM-Shielding]. This is not optimal but a start for a case. Try to avoid WIFI connections (at least use WPA3 if you need WIFI)
 
 Install newest firmware/bios
 
-Advanced: Remove none Microsoft keys from Secureboot (If there are keys from your motherboard vendor use another motherboard!)
+Advanced: Remove none-Microsoft keys from Secureboot except your own ones (If there are keys from your motherboard vendor use another motherboard!)
 
-WARNING: If you mess up any of the following steps start at the beginning!!! Take your time and you only have to do it once.
+WARNING: If you mess up any of the following steps START AT THE BEGINNING (This means step 0.)!!! Take your time and you only have to do it once.
 
 Windows 11 Configuration:
+
+0. Unplug your ethernet cable
 
 1. Install Windows without network connection (create a local account). Do not connect to the LAN or Internet yet!!!
 
@@ -22,14 +24,14 @@ Windows 11 Configuration:
 
 <img width="506" alt="install_device_guard_2" src="https://user-images.githubusercontent.com/6840466/149796200-d9ee180d-7b3d-48fa-a19f-7e242b0bd4c0.png">
 
-Reboot pc
+Reboot PC
 
 3. Install/enable Device Guard:
 
 Open Group Policy Editor
 <img width="830" alt="Screenshot 2022-01-17 153521" src="https://user-images.githubusercontent.com/6840466/149796019-8281de6a-9c0f-450c-bc54-924415ba509a.png">
 
-4. Configure Application Guard [for smooth browsing experience, if you want more security dont enable following but watching youtube will suck :)]
+4. Configure Application Guard [for a nice browsing experience, if you want more security do not enable following, but watching youtube etc. will suck :)]
 
 <img width="1079" alt="install_device_guard_2_2" src="https://user-images.githubusercontent.com/6840466/149801090-3088cfa2-5b18-488c-aa4f-debd6cf4837c.png">
 
@@ -43,14 +45,13 @@ Open Group Policy Editor
 
 6. Windows Update
 
-- Only allow downloads from Microsoft directly
+- Only allow downloads from Microsoft directly (in theory not required but better save than sorry)
 
 <img width="902" alt="windows_update_disable1" src="https://user-images.githubusercontent.com/6840466/149802085-1036c454-e0d5-4125-a12e-781ebb388750.png">
 
 <img width="903" alt="windows_update_disable2" src="https://user-images.githubusercontent.com/6840466/149802090-8a33439c-19a0-4e89-989d-6769164a4d57.png">
 
-- Reboot pc to loginscreen and plugin network cable. Do not login yet! If you have connected to the internet before start from the beginning!
-	Wait till updates are installed (aprox. 10min)
+- Reboot PC to login screen and plugin network/ethernet cable. Do not login yet! If you have connected to the internet before RESTART FROM STEP 0. ! Wait till updates are installed (aprox. 10min)
 
 - Go to Windows Update and install the updates which did not get installed before
 
@@ -62,31 +63,17 @@ Open Group Policy Editor
 
 - Do not install any drivers outside of Windows Update unless absolutly necessary!
 
-- Reboot pc
+- Reboot PC
 
-7. Create a normal User Account and use it as default (I prefer local accounts)
-
-- Set UAC to maximum
-
-<img width="561" alt="account_1" src="https://user-images.githubusercontent.com/6840466/149799663-becf11ce-c9be-41cf-94d3-8db9d07fb7ba.png">
-
-- Create local User-Account
-
-<img width="845" alt="account2" src="https://user-images.githubusercontent.com/6840466/149799711-7ae48fdf-d489-4075-b127-1d0617fdf51e.png">
-
-<img width="362" alt="account3" src="https://user-images.githubusercontent.com/6840466/149799729-33cf70f2-21df-4968-8d9f-c1bfbc7dcd63.png">
-
-<img width="845" alt="account4" src="https://user-images.githubusercontent.com/6840466/149799744-511e7d03-a4c6-41c5-ba1c-0a1f44a564b9.png">
-
-<img width="510" alt="account5" src="https://user-images.githubusercontent.com/6840466/149799768-6ba85935-27bc-4a2d-8642-d8e25f1bf328.png">
-
-8. Edge-Browser (personal recommendation because of virtualization integrated into Windows, you can also use Windows Sandbox [not described in this guide])
+7. Edge-Browser (personal recommendation because of virtualization integrated into Windows, you can also use Windows Sandbox [not described in this guide])
 
 - Install Edge updates before opening any websites!!!
 
+Open following site in the settings menu and it should automatically update.
+
 <img width="1382" alt="edge1" src="https://user-images.githubusercontent.com/6840466/149796876-cc64066e-efa3-4f52-a319-f173f0fc6f49.png">
 
-- Restart Edge!!! (If you opened any Websites before start at the beginning)
+- Restart Edge!!! (If you opened any Websites before RESTART FROM STEP 0.)
 
 - Configure Edge
 
@@ -110,15 +97,43 @@ Scroll down
 
 - Start Microsoft Defender Application Guard and repeat the steps from above which you did for the Edge-Browser
 
+8. Configure Internet Options
 
+<img width="333" alt="internet_options_1" src="https://user-images.githubusercontent.com/6840466/149834196-bb2fde39-da05-4754-bbb5-5800c65a043c.png">
+
+<img width="469" alt="internet_options_2" src="https://user-images.githubusercontent.com/6840466/149834207-e849b25b-fc22-48aa-a08d-9db373174bcc.png">
+
+<img width="460" alt="internet_options_3" src="https://user-images.githubusercontent.com/6840466/149834211-70f11e18-52c4-45d6-b405-b5e361c93fc2.png">
+
+<img width="306" alt="internet_options_4" src="https://user-images.githubusercontent.com/6840466/149834219-a9417c3a-8d61-4fd5-86a8-4cf2b5f7ec59.png">
+
+9. Create a normal User Account and use it as default (I prefer local accounts)
+
+- Set UAC to maximum
+
+<img width="561" alt="account_1" src="https://user-images.githubusercontent.com/6840466/149799663-becf11ce-c9be-41cf-94d3-8db9d07fb7ba.png">
+
+- Create local User-Account
+
+<img width="845" alt="account2" src="https://user-images.githubusercontent.com/6840466/149799711-7ae48fdf-d489-4075-b127-1d0617fdf51e.png">
+
+<img width="362" alt="account3" src="https://user-images.githubusercontent.com/6840466/149799729-33cf70f2-21df-4968-8d9f-c1bfbc7dcd63.png">
+
+<img width="845" alt="account4" src="https://user-images.githubusercontent.com/6840466/149799744-511e7d03-a4c6-41c5-ba1c-0a1f44a564b9.png">
+
+<img width="510" alt="account5" src="https://user-images.githubusercontent.com/6840466/149799768-6ba85935-27bc-4a2d-8642-d8e25f1bf328.png">
+
+10. Repeat steps 7. and 8. for your normal user account!!!
+
+From now on always login with your normal user account!
 
 Annotations:
 
-- DO NOT OVERCLOCK YOUR PC
+- DO NOT OVERCLOCK YOUR PC (AMD PBO should be safe, but not sure yet). Keep your PC in the specifications. Electrical engineers now what they are doing. Programmers of bioses often do not seem to know what they are doing or more reasonable it must be the marketing department! :)
 
 - Try to always use Microsoft Defender Application Guard and not the normal Edge-Browser! Unfortanetly it is not always possible and you can not set it as default yet :(
 
-- Also you can not save/edit bookmarks with Microsoft Defender Application Guard but can still open existing ones. You can use the normal Edge-Browser to manage your bookmarks.
+- Also you can not save/edit bookmarks with Microsoft Defender Application Guard but you can still open existing ones. You can use the normal Edge-Browser to manage your bookmarks.
 
 - Try to use Windows Store (UWP) apps
 
@@ -126,11 +141,12 @@ Annotations:
 
 - Try to use a VPN
 
-- You can do additional steps for privacy concerns (not covered in this guide). This guide should make your Windows 11 PC really hard to hack but you still will be tracked! Nothing is 100% safe. The Germans should not be able to hack you, maybe the NSA. Always install the newest updates and do not do anything illegal!
+- You can do additional steps for privacy concerns (not covered in this guide). This guide should make your Windows 11 PC really hard to hack but you still will be tracked! Nothing is 100% safe. The Germans (government, industry, billionaires etc.) should not be able to hack you, maybe the NSA. Always install the newest updates and do not do anything illegal!
 
 Pardon me for my bad english but they brainwashed me and im just recovering. (Political parties in germany [Yes all the big ones! They worked together with german billionaires because i told them the truth and knew some things they call "secrets" (criminal acts) but in my opinion everybody should now. They are incompetent, corrupt, cowards. Yes I am ANGRY 😡 ]) Had to train for a few years to recover.
 See my facebook account https://www.facebook.com/profile.php?id=100070019901989
-Also try to use a Pixel 6 with GrapheneOS. Will try to make a guide for it in the future if they do not get me before.
+
+Also try to use a Pixel 6 with GrapheneOS as a mobile device. Will try to make a guide for it in the future if they do not get me before.
 
 NOW WE HAVE THE TOOLS TO FIGHT BACK. Took a long long time.
 
@@ -139,7 +155,9 @@ NEVER GIVE UP
 THE RESISTENCE WILL NEVER DIE. YOU ARE NOT ALONE.
 
 
-GERMAN TRANSLATION / Deutsche Anleitung:
+
+GERMAN TRANSLATION
+Deutsche Anleitung:
 
 Anleitung zur Sicherung/Härtung eines Windows 11 PC 
 
@@ -147,15 +165,17 @@ Voraussetzungen:
 
 Windows 11 Pro
 
-Moderne Hardware (persönliche Empfehlungen: AMD Ryzen 5 PRO 5650G, versuchen Sie eine möglichste moderne CPU zu nutzen), ECC-RAM, abgeschirmte Netzwerk-Kabel (SF/FTP), Benutzen Sie kein Gehäuse mit Plastikseitenpanelen (vollständig aus Metal!, Alternative können Sie Ihr Gehäuse in Alufolie einwickeln [mind. 10 lagen]) [Elektromagnetische-Abschirmung], versuchen Sie WLAN-Verbindungen zu vermeiden (oder benutzen Sie zumindest WPA3 sofern Sie WLAN nutzen möchten/müssen)
+Moderne Hardware (persönliche Empfehlungen: AMD Ryzen 5 PRO 5650G [hab noch keinen, bitte nicht alle kaufen ;)], versuchen Sie eine möglichst moderne CPU zu nutzen), ECC-RAM, abgeschirmte Netzwerk-Kabel (SF/FTP), Benutzen Sie kein Gehäuse mit Plastikseitenpanelen (vollständig aus Metal!, Alternative können Sie Ihr Gehäuse in Alufolie einwickeln [mind. 10 Lagen]). Dies ist nicht optimal aber schonmal ein Anfang für ein Gehäuse. [Elektromagnetische-Abschirmung], versuchen Sie WLAN-Verbindungen zu vermeiden (oder benutzen Sie zumindest WPA3 sofern Sie WLAN nutzen möchten/müssen)
 
 Installieren Sie die neueste Firmware/Bios
 
-Fortgeschritten: entfernen Sie alle nicht-Microsoft Schlüssel aus Secureboot (sollten sich hier Schlüssel von Ihrem Motherboard-Hersteller befinden nutzen Sie ein anderes Motherboard)
+Fortgeschritten: entfernen Sie alle nicht-Microsoft Schlüssel außer evt. Ihre eigenen aus Secureboot (sollten sich hier Schlüssel von Ihrem Motherboard-Hersteller befinden nutzen Sie ein anderes Motherboard/Mainboard)
 
-WARNUNG: Wenn Sie einen Fehler bei den folgenden Schritten machen starten Sie von vorne!!! Nehmen Sie sich zeit und befolgen Sie die Anleitung, dann müssen Sie dies nur einmal machen.
+WARNUNG: Wenn Sie einen Fehler bei den folgenden Schritten machen starten Sie GANZ VON VORNE (D.h. Punkt 0.)!!! Nehmen Sie sich Zeit und befolgen Sie die Anleitung, dann müssen Sie dies nur einmal machen.
 
 Windows 11 Konfiguration:
+
+0. Entfernen Sie Ihr Netzwerkkabel.
 
 1. Installieren Sie Windows ohne Netzwerkverbindung (erstellen Sie einen lokalen Benutzer-Zugang). Verbinden Sie sich noch NICHT mit ihrem LAN oder dem Internet!!!
 
@@ -172,7 +192,7 @@ Starten Sie Ihren PC neu.
 Öffnen Sie den Gruppenrichtlinien-Editor
 <img width="830" alt="Screenshot 2022-01-17 153521" src="https://user-images.githubusercontent.com/6840466/149796019-8281de6a-9c0f-450c-bc54-924415ba509a.png">
 
-4. Konfigurieren Sie Application Guard [für eine flüssige Browser-Erfahrung, wenn Sie mehr Sicherheit haben möchten aktivieren Sie nicht folgende Einstellungen aber das betrachten von Youtube-Videos wird nerven :)]
+4. Konfigurieren Sie Application Guard [für eine angenehme Browser-Erfahrung, wenn Sie mehr Sicherheit haben möchten aktivieren Sie nicht folgende Einstellungen aber das betrachten von Youtube-Videos etc. wird nerven :)]
 
 <img width="1079" alt="install_device_guard_2_2" src="https://user-images.githubusercontent.com/6840466/149801090-3088cfa2-5b18-488c-aa4f-debd6cf4837c.png">
 
@@ -186,14 +206,13 @@ Starten Sie Ihren PC neu.
 
 6. Windows Update
 
-- Erlauben Sie nur Downloads von Microsoft direkt
+- Erlauben Sie nur Downloads von Microsoft direkt (theoretisch nicht notwendig)
 
 <img width="902" alt="windows_update_disable1" src="https://user-images.githubusercontent.com/6840466/149802085-1036c454-e0d5-4125-a12e-781ebb388750.png">
 
 <img width="903" alt="windows_update_disable2" src="https://user-images.githubusercontent.com/6840466/149802090-8a33439c-19a0-4e89-989d-6769164a4d57.png">
 
-- Starten Sie Ihren PC neu zum Anmeldebildschirm und stecken Sie das Netzwerkkabel ein. Melden Sie sich noch nicht an! Wenn Sie sich bereits vorher mit dem Internet verbunden haben starten Sie von vorne!
-	Warten Sie bis alle Updates installiert sind (ungefähr 10 Minuten)
+- Starten Sie Ihren PC neu zum Anmeldebildschirm und stecken Sie das Netzwerkkabel ein. Melden Sie sich noch nicht an! Wenn Sie sich bereits vorher mit dem Internet verbunden haben starten Sie GANZ VON VORNE! Warten Sie bis alle Updates installiert sind (ungefähr 10 Minuten)
 
 - Öffenen Go to Windows Update und installieren Sie die Updates welches vorher nicht installiert wurden.
 
@@ -207,29 +226,13 @@ Starten Sie Ihren PC neu.
 
 - Starten Sie Ihren PC neu.
 
-7. Erstellen Sie einen normalen Benutzer-Account (Ich bevorzuge lokale Konten)
-
-- Setzen Sie UAC auf die maximale Einstellung
-
-<img width="561" alt="account_1" src="https://user-images.githubusercontent.com/6840466/149799663-becf11ce-c9be-41cf-94d3-8db9d07fb7ba.png">
-
-- Erstellen eines lokalen Benutzers
-
-<img width="845" alt="account2" src="https://user-images.githubusercontent.com/6840466/149799711-7ae48fdf-d489-4075-b127-1d0617fdf51e.png">
-
-<img width="362" alt="account3" src="https://user-images.githubusercontent.com/6840466/149799729-33cf70f2-21df-4968-8d9f-c1bfbc7dcd63.png">
-
-<img width="845" alt="account4" src="https://user-images.githubusercontent.com/6840466/149799744-511e7d03-a4c6-41c5-ba1c-0a1f44a564b9.png">
-
-<img width="510" alt="account5" src="https://user-images.githubusercontent.com/6840466/149799768-6ba85935-27bc-4a2d-8642-d8e25f1bf328.png">
-
-8. Edge-Browser (persönliche Empfehlung wegen der integrierten virtualisierung in Windows. Sie können auch Windows Sandbox nutzen [nicht beschrieben in dieser Anleitung])
+7. Edge-Browser (persönliche Empfehlung wegen der integrierten virtualisierung in Windows. Sie können auch Windows Sandbox nutzen [nicht beschrieben in dieser Anleitung])
 
 - Installieren Sie die Updates für Edge bevor Sie eine Website öffnen!!!
 
 <img width="1382" alt="edge1" src="https://user-images.githubusercontent.com/6840466/149796876-cc64066e-efa3-4f52-a319-f173f0fc6f49.png">
 
-- Starten Sie Edge neu !!! (Sollten Sie eine Website vorher geöffnet haben starten sie von vorne)
+- Starten Sie Edge neu !!! (Sollten Sie eine Website vorher geöffnet haben starten sie GANZ VON VORNE)
 
 - Konfigurieren von Edge
 
@@ -253,11 +256,40 @@ Scrollen Sie runter
 
 - Starten Sie Microsoft Defender Application Guard und wiederholen Sie die Schritte welche Sie für den Edge-Browser durchgeführt haben.
 
+8. Konfigurieren der Internet Optionen
+
+<img width="333" alt="internet_options_1" src="https://user-images.githubusercontent.com/6840466/149834196-bb2fde39-da05-4754-bbb5-5800c65a043c.png">
+
+<img width="469" alt="internet_options_2" src="https://user-images.githubusercontent.com/6840466/149834207-e849b25b-fc22-48aa-a08d-9db373174bcc.png">
+
+<img width="460" alt="internet_options_3" src="https://user-images.githubusercontent.com/6840466/149834211-70f11e18-52c4-45d6-b405-b5e361c93fc2.png">
+
+<img width="306" alt="internet_options_4" src="https://user-images.githubusercontent.com/6840466/149834219-a9417c3a-8d61-4fd5-86a8-4cf2b5f7ec59.png">
+
+9. Erstellen Sie einen normalen Benutzer-Account (Ich bevorzuge lokale Konten)
+
+- Setzen Sie UAC auf die maximale Einstellung
+
+<img width="561" alt="account_1" src="https://user-images.githubusercontent.com/6840466/149799663-becf11ce-c9be-41cf-94d3-8db9d07fb7ba.png">
+
+- Erstellen eines lokalen Benutzers
+
+<img width="845" alt="account2" src="https://user-images.githubusercontent.com/6840466/149799711-7ae48fdf-d489-4075-b127-1d0617fdf51e.png">
+
+<img width="362" alt="account3" src="https://user-images.githubusercontent.com/6840466/149799729-33cf70f2-21df-4968-8d9f-c1bfbc7dcd63.png">
+
+<img width="845" alt="account4" src="https://user-images.githubusercontent.com/6840466/149799744-511e7d03-a4c6-41c5-ba1c-0a1f44a564b9.png">
+
+<img width="510" alt="account5" src="https://user-images.githubusercontent.com/6840466/149799768-6ba85935-27bc-4a2d-8642-d8e25f1bf328.png">
+
+10. Wiederholen Sie Schritt 8. und 9. für Ihren normal Benutzer-Account!!!
+
+Melden Sie sich ab jetzt immer mit Ihrem normalen Benutzer-Account an.
 
 
 Anmerkungen:
 
-- ÜBERTAKTEN SIE NICHT IHREN PC
+- ÜBERTAKTEN SIE NICHT IHREN PC (AMD PBO sollte in Ordnung sein, bin mir aber noch nicht sicher). Halten Sie Ihren PC innerhalb der Spezifikationen. Elektrotechniker wissen was Sie tuen. Programmierer von Biosen meistens anscheinend nicht oder wahrscheinlicher: Es ist die Schuld der Marketing-Abteilung! :)
 
 - Versuchen Sie immer den Microsoft Defender Application Guard zu nutzen und nicht den normalen Edge-Browser! Leider ist dies nicht immer möglich und Sie können Ihn nicht als Standard-Browser setzen.
 
@@ -269,13 +301,14 @@ Anmerkungen:
 
 - Versuchen Sie ein VPN zu nutzen
 
-- Sie können weiter Schritte durchführen um Ihre Privatssphäre zu schützen. Diese Anleitung sollte Ihren Windows 11 PC ziemlich gut gegen Hackangriffe abschützen aber Sie können noch immer getracked werden. Nichts ist 100% sicher. Die deutschen sollten Sie nicht mehr hacken können, wahrscheinlich aber noch die NSA. Installieren Sie immer die neuesten Updates und machen Sie nicht illegales!
+- Sie können weitere Schritte durchführen um Ihre Privatssphäre zu schützen, welche hier nicht gelistet sind. Diese Anleitung sollte Ihren Windows 11 PC ziemlich gut gegen Hackangriffe abschützen aber Sie können noch immer getracked werden. Nichts ist 100% sicher. Die deutschen (Regierung, Industrie, Milliardäre) sollten Sie nicht mehr hacken können, wahrscheinlich aber noch die NSA. Installieren Sie immer die neuesten Updates und machen Sie nicht illegales!
 
 Man hat mich in der Vergangenheit einer Gehirnwäsche unterzogen. (Politische Parteien in Deutschland [Ja, alle großen! Sie haben sich damals mit deutschen Milliardären zusammengeschlossen weil ich Ihnen die Wahrheit erzählt habe und einige Dinge wußte welche Sie als "Geheimnisse" (kriminelle Handlungen) bezeichen, wo ich aber der Überzeugung bin dass dies alle Wissen sollten. Sie sind inkompetent, korrupt und feige. Ja ich bin wütdend😡 ]) Ich muste ein paar Jahre trainieren um wieder auf die Beine zu kommen.
-Schaut euch bitte meinen Facebook-Account https://www.facebook.com/profile.php?id=100070019901989 an
+Schaut euch bitte meinen Facebook-Account https://www.facebook.com/profile.php?id=100070019901989 an.
+
 Versucht auch ein Pixel 6 mit GrapheneOS zu nutzen. Ich werde versuchen in Zukunft auch eine Anleitung hierfür zu erstellen sofern Sie mich nicht vorher wieder in die Finger bekommen.
 
-WIR HABEN NUN DIE WERKZEUGE UM ZURÜCKZUSCHLAGEN. Es hat eine lange Zeit gedauert.
+WIR HABEN NUN DIE WERKZEUGE UM ZURÜCKZUSCHLAGEN. Es hat eine lange lange Zeit gedauert.
 
 GEBT NIEMALS AUF.
 
