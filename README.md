@@ -20,7 +20,7 @@ Windows 11 Configuration:
 
 <img width="506" alt="install_device_guard_2" src="https://user-images.githubusercontent.com/6840466/149796200-d9ee180d-7b3d-48fa-a19f-7e242b0bd4c0.png">
 
-reboot pc
+Reboot pc
 
 3. Install/enable device guard:
 
@@ -55,11 +55,11 @@ reboot pc
 
 - Do not install any drivers outside of Windows Update unless necessary!
 
-- reboot pc
+- Reboot pc
 
 7. Create a normal User Account and use it as default (i prefer local accounts
 
-- set UAC to maximum
+- Set UAC to maximum
 
 <img width="561" alt="account_1" src="https://user-images.githubusercontent.com/6840466/149799663-becf11ce-c9be-41cf-94d3-8db9d07fb7ba.png">
 
@@ -78,31 +78,33 @@ reboot pc
 
 <img width="1382" alt="edge1" src="https://user-images.githubusercontent.com/6840466/149796876-cc64066e-efa3-4f52-a319-f173f0fc6f49.png">
 
-- restart Edge!!!
+- Restart Edge!!! (If you opened any Websites before start at the beginning)
 
-- configure Edge
+- Configure Edge
 
 <img width="951" alt="edge2" src="https://user-images.githubusercontent.com/6840466/149796981-2e5c5147-8bf0-4739-9cf4-5f68e06adb32.png">
 
-scroll down
+Scroll down
 
 <img width="951" alt="edge2_2" src="https://user-images.githubusercontent.com/6840466/149797142-f6333a60-6d08-4eba-8d97-6aef6f43631c.png">
 
 <img width="951" alt="edge3" src="https://user-images.githubusercontent.com/6840466/149797206-9e1c226f-3f10-4926-9da7-1ab2527fe4bc.png">
 
-- set flags (flags may change with newer Edge versions)
+- Set flags (flags may change with newer Edge versions)
 
 <img width="960" alt="edge_flags1" src="https://user-images.githubusercontent.com/6840466/149800664-6bc20985-69b7-4030-b7c6-8aaf14416ea0.png">
 
 <img width="960" alt="edge_flags2" src="https://user-images.githubusercontent.com/6840466/149800698-eb33a910-ad12-49e0-8ddb-2d5388c166ce.png">
 
-- install extensions (Adblocker etc. personal recommendation: Ublock origin)
+- Install extensions (Adblocker etc. personal recommendation: Ublock origin)
 
-- start Microsoft Defender Application Guard and repeat the steps from above
+- Start Microsoft Defender Application Guard and repeat the steps from above
 
-- install Microsoft Defender Application Guard Companion from Windows Store and add it to your taskbar
+- Install Microsoft Defender Application Guard Companion from Windows Store and add it to your taskbar
 
-- try to always use Microsoft Defender Application Guard and not the normal Edge-Browser! Unfortanetly it is not always possible and you can not set it as default yet :(
+
+Annotations:
+- Try to always use Microsoft Defender Application Guard and not the normal Edge-Browser! Unfortanetly it is not always possible and you can not set it as default yet :(
 
 - Also you can not store bookmarks but can still open existing ones. You can use the normal Edge-Browser to manage your bookmarks.
 
@@ -114,7 +116,7 @@ scroll down
 
 - You can do additional steps for privacy concerns but this should make your Windows 11 PC really hard to hack but you still will be tracked! Nothing is 100% safe. Always install the newest updates and do not do anything illegal!
 
-Pardon me for my bad english but they brainwashed me and im just recovering. Had to train for a few years to recover.
+Pardon me for my bad english but they (political parties in germany) brainwashed me and im just recovering. Had to train for a few years to recover.
 See my facebook account https://www.facebook.com/profile.php?id=100070019901989
 Also try to use a Pixel 6 with GrapheneOS. Will try to make a guide for it in the future if they do not get me before.
 
