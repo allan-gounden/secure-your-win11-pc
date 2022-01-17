@@ -8,7 +8,7 @@ Modern hardware (personal recommendation: AMD Ryzen 5 PRO 5650G, try to use at l
 
 Install newest firmware/bios
 
-WARNINING: If you mess up any of the following steps start at the beginning!!! Take your time and you only have to do it once.
+WARNING: If you mess up any of the following steps start at the beginning!!! Take your time and you only have to do it once.
 
 Windows 11 Configuration:
 
@@ -49,7 +49,7 @@ reboot pc
 - Reboot pc to loginscreen and plugin network cable. Do not login yet! If you have connected to the internet before start from the beginning
 	Wait till updates are installed (aprox. 10min)
 
-- Go to Windows Update and install the updates which didnt get installed before
+- Go to Windows Update and install the updates which did not get installed before
 
 - Go to Windows Update and install optional driver updates
 
@@ -96,13 +96,9 @@ scroll down
 
 <img width="960" alt="edge_flags2" src="https://user-images.githubusercontent.com/6840466/149800698-eb33a910-ad12-49e0-8ddb-2d5388c166ce.png">
 
-- do the same for Microsoft Defender Application Guard
-
-<img width="960" alt="edge_flags1" src="https://user-images.githubusercontent.com/6840466/149797325-e2342291-94f2-4194-a017-3f6987745c61.png">
-
-<img width="960" alt="edge_flags2" src="https://user-images.githubusercontent.com/6840466/149797365-cb55265a-f8ef-4e73-8109-4475b7f83166.png">
-
 - install extensions (Adblocker etc. personal recommendation: Ublock origin)
+
+- start Microsoft Defender Application Guard and repeat the steps from above
 
 - install Microsoft Defender Application Guard Companion from Windows Store and add it to your taskbar
 
