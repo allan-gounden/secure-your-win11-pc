@@ -8,6 +8,8 @@ Modern hardware (personal recommendation: AMD Ryzen 5 PRO 5650G, try to use at l
 
 Install newest firmware/bios
 
+Advanced: Remove none Microsoft keys from Secureboot (If there are keys from your motherboard vendor use another motherboard!)
+
 WARNING: If you mess up any of the following steps start at the beginning!!! Take your time and you only have to do it once.
 
 Windows 11 Configuration:
@@ -24,6 +26,7 @@ Reboot pc
 
 3. Install/enable Device Guard:
 
+Open Group Policy Editor
 <img width="830" alt="Screenshot 2022-01-17 153521" src="https://user-images.githubusercontent.com/6840466/149796019-8281de6a-9c0f-450c-bc54-924415ba509a.png">
 
 4. Configure Application Guard [for smooth browsing experience, if you want more security dont enable following but watching youtube will suck :)]
@@ -51,7 +54,11 @@ Reboot pc
 
 - Go to Windows Update and install the updates which did not get installed before
 
-- Go to Windows Update and install optional driver updates
+- Go to Windows Update and install optional driver updates (newer drivers)
+
+<img width="902" alt="windows_update_1" src="https://user-images.githubusercontent.com/6840466/149818605-9f5a7b9c-440c-47e6-8a13-8bfdcf1fef24.png">
+
+<img width="902" alt="windows_update_2" src="https://user-images.githubusercontent.com/6840466/149818617-d90c3cf9-85df-48f2-8144-1c4ae22b0c42.png">
 
 - Do not install any drivers outside of Windows Update unless absolutly necessary!
 
@@ -73,7 +80,8 @@ Reboot pc
 
 <img width="510" alt="account5" src="https://user-images.githubusercontent.com/6840466/149799768-6ba85935-27bc-4a2d-8642-d8e25f1bf328.png">
 
-8. Edge-Browser (personal recommendation because of virtualization, you can also use Windows Sandbox [not described in this guide])
+8. Edge-Browser (personal recommendation because of virtualization integrated into Windows, you can also use Windows Sandbox [not described in this guide])
+
 - Install Edge updates before opening any websites!!!
 
 <img width="1382" alt="edge1" src="https://user-images.githubusercontent.com/6840466/149796876-cc64066e-efa3-4f52-a319-f173f0fc6f49.png">
@@ -96,27 +104,31 @@ Scroll down
 
 <img width="960" alt="edge_flags2" src="https://user-images.githubusercontent.com/6840466/149800698-eb33a910-ad12-49e0-8ddb-2d5388c166ce.png">
 
-- Install extensions (Adblocker etc. personal recommendation: Ublock origin)
-
-- Start Microsoft Defender Application Guard and repeat the steps from above
+- Install extensions, but only the ones you realy trust (Adblocker etc. personal recommendation: Ublock origin)
 
 - Install Microsoft Defender Application Guard Companion from Windows Store and add it to your taskbar
 
+- Start Microsoft Defender Application Guard and repeat the steps from above which you did for the Edge-Browser
+
+
 
 Annotations:
+
+- DO NOT OVERCLOCK YOUR PC
+
 - Try to always use Microsoft Defender Application Guard and not the normal Edge-Browser! Unfortanetly it is not always possible and you can not set it as default yet :(
 
-- Also you can not store bookmarks but can still open existing ones. You can use the normal Edge-Browser to manage your bookmarks.
+- Also you can not save/edit bookmarks with Microsoft Defender Application Guard but can still open existing ones. You can use the normal Edge-Browser to manage your bookmarks.
 
-- Try to use Windows Store UWP apps
+- Try to use Windows Store (UWP) apps
 
 - Try to avoid apps outside of the Windows Store
 
 - Try to use a VPN
 
-- You can do additional steps for privacy concerns but this should make your Windows 11 PC really hard to hack but you still will be tracked! Nothing is 100% safe. Always install the newest updates and do not do anything illegal!
+- You can do additional steps for privacy concerns (not covered in this guide). This guide should make your Windows 11 PC really hard to hack but you still will be tracked! Nothing is 100% safe. The Germans should not be able to hack you, maybe the NSA. Always install the newest updates and do not do anything illegal!
 
-Pardon me for my bad english but they brainwashed me and im just recovering. (Political parties in germany [Yes all the big ones! They worked together with billionaires because i told them the truth. They are incompetent, corrupt, cowards. Yes I am ANGRY 😡 ]) Had to train for a few years to recover.
+Pardon me for my bad english but they brainwashed me and im just recovering. (Political parties in germany [Yes all the big ones! They worked together with german billionaires because i told them the truth and knew some things they call "secrets" (criminal acts) but in my opinion everybody should now. They are incompetent, corrupt, cowards. Yes I am ANGRY 😡 ]) Had to train for a few years to recover.
 See my facebook account https://www.facebook.com/profile.php?id=100070019901989
 Also try to use a Pixel 6 with GrapheneOS. Will try to make a guide for it in the future if they do not get me before.
 
