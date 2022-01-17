@@ -1,12 +1,14 @@
 Basic guide for securing/hardening your Windows 11 PC
 
 Prerequisites:
+
 Windows 11 Pro
+
 Modern hardware (personal recommendation: AMD Ryzen 5 PRO 5650G, try to use at least a modern CPU), ECC-RAM, shielded network cables (SF/FTP), do no not use a case with plastic side pandels (all metal!, you can also wrap your case with multiple layers of aluminum foil [10 layers at least]) [EM-Shielding], try to avoid WIFI connections (at least use WPA3 if you need WIFI)
 
 Install newest firmware/bios
 
-WARNINING: If you mess up any of the following steps start at the beginning!!! Take your time and you only have to to it once.
+WARNINING: If you mess up any of the following steps start at the beginning!!! Take your time and you only have to do it once.
 
 Windows 11 Configuration:
 
@@ -21,8 +23,6 @@ Windows 11 Configuration:
 reboot pc
 
 3. Install/enable device guard:
-
-<img width="1079" alt="install_device_guard_2_2" src="https://user-images.githubusercontent.com/6840466/149796587-697f7281-69aa-4ae8-9aa9-ee33285d008b.png">
 
 <img width="830" alt="Screenshot 2022-01-17 153521" src="https://user-images.githubusercontent.com/6840466/149796019-8281de6a-9c0f-450c-bc54-924415ba509a.png">
 
