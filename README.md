@@ -116,7 +116,7 @@ Annotations:
 
 - You can do additional steps for privacy concerns but this should make your Windows 11 PC really hard to hack but you still will be tracked! Nothing is 100% safe. Always install the newest updates and do not do anything illegal!
 
-Pardon me for my bad english but they (political parties in germany) brainwashed me and im just recovering. Had to train for a few years to recover.
+Pardon me for my bad english but they (political parties in germany [Yes all the big ones!]) brainwashed me and im just recovering. Had to train for a few years to recover.
 See my facebook account https://www.facebook.com/profile.php?id=100070019901989
 Also try to use a Pixel 6 with GrapheneOS. Will try to make a guide for it in the future if they do not get me before.
 
