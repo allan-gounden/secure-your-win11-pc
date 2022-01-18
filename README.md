@@ -119,8 +119,6 @@ Scroll down
 
 <img width="845" alt="account2" src="https://user-images.githubusercontent.com/6840466/149799711-7ae48fdf-d489-4075-b127-1d0617fdf51e.png">
 
-<img width="362" alt="account3" src="https://user-images.githubusercontent.com/6840466/149799729-33cf70f2-21df-4968-8d9f-c1bfbc7dcd63.png">
-
 <img width="845" alt="account4" src="https://user-images.githubusercontent.com/6840466/149799744-511e7d03-a4c6-41c5-ba1c-0a1f44a564b9.png">
 
 <img width="510" alt="account5" src="https://user-images.githubusercontent.com/6840466/149799768-6ba85935-27bc-4a2d-8642-d8e25f1bf328.png">
@@ -280,8 +278,6 @@ Scrollen Sie runter
 - Erstellen eines lokalen Benutzers
 
 <img width="845" alt="account2" src="https://user-images.githubusercontent.com/6840466/149799711-7ae48fdf-d489-4075-b127-1d0617fdf51e.png">
-
-<img width="362" alt="account3" src="https://user-images.githubusercontent.com/6840466/149799729-33cf70f2-21df-4968-8d9f-c1bfbc7dcd63.png">
 
 <img width="845" alt="account4" src="https://user-images.githubusercontent.com/6840466/149799744-511e7d03-a4c6-41c5-ba1c-0a1f44a564b9.png">
 
