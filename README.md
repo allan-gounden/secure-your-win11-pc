@@ -8,6 +8,8 @@ Modern hardware (personal recommendation: AMD Ryzen 5000 PRO [still do not own o
 
 Install newest firmware/bios
 
+Set a password for UEFI/BIOS
+
 Advanced: Remove none-Microsoft keys from Secureboot except your own ones (If there are keys from your motherboard vendor use another motherboard!)
 
 WARNING: If you mess up any of the following steps START AT THE BEGINNING (This means step 0.)!!! Take your time and you only have to do it once.
@@ -169,6 +171,8 @@ Windows 11 Pro
 Moderne Hardware (persönliche Empfehlungen: AMD Ryzen 5000 PRO [hab noch keinen, bitte nicht alle kaufen ;)], versuchen Sie eine möglichst moderne CPU zu nutzen), ECC-RAM, abgeschirmte Netzwerk-Kabel (SF/FTP), Benutzen Sie kein Gehäuse mit Plastikseitenpanelen (vollständig aus Metal!, Alternative können Sie Ihr Gehäuse in Alufolie einwickeln [mind. 10 Lagen]). Dies ist nicht optimal aber schonmal ein Anfang für ein Gehäuse. [Elektromagnetische-Abschirmung], versuchen Sie WLAN-Verbindungen zu vermeiden (oder benutzen Sie zumindest WPA3 sofern Sie WLAN nutzen möchten/müssen)
 
 Installieren Sie die neueste Firmware/Bios
+
+Setzen Sie ein UEFI/BIOS Password
 
 Fortgeschritten: entfernen Sie alle nicht-Microsoft Schlüssel außer evt. Ihre eigenen aus Secureboot (sollten sich hier Schlüssel von Ihrem Motherboard-Hersteller befinden nutzen Sie ein anderes Motherboard/Mainboard)
 
