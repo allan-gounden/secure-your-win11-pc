@@ -4,7 +4,7 @@ Prerequisites:
 
 Windows 11 Pro
 
-Modern hardware (personal recommendation: AMD Ryzen 5 PRO 5650G [still do not own one, do not buy all please ;)], try to use at least a modern CPU), ECC-RAM, shielded network/ethernet cables (SF/FTP), do no not use a case with plastic side panels (all metal!, you can also wrap your case with multiple layers of aluminum foil [10 layers at least]) [EM-Shielding]. This is not optimal but a start for a case. Try to avoid WIFI connections (at least use WPA3 if you need WIFI)
+Modern hardware (personal recommendation: AMD Ryzen 5000 PRO [still do not own one, do not buy all please ;)], try to use at least a modern CPU), ECC-RAM, shielded network/ethernet cables (SF/FTP), do no not use a case with plastic side panels (all metal!, you can also wrap your case with multiple layers of aluminum foil [10 layers at least]) [EM-Shielding]. This is not optimal but a start for a case. Try to avoid WIFI connections (at least use WPA3 if you need WIFI)
 
 Install newest firmware/bios
 
@@ -166,7 +166,7 @@ Voraussetzungen:
 
 Windows 11 Pro
 
-Moderne Hardware (persönliche Empfehlungen: AMD Ryzen 5 PRO 5650G [hab noch keinen, bitte nicht alle kaufen ;)], versuchen Sie eine möglichst moderne CPU zu nutzen), ECC-RAM, abgeschirmte Netzwerk-Kabel (SF/FTP), Benutzen Sie kein Gehäuse mit Plastikseitenpanelen (vollständig aus Metal!, Alternative können Sie Ihr Gehäuse in Alufolie einwickeln [mind. 10 Lagen]). Dies ist nicht optimal aber schonmal ein Anfang für ein Gehäuse. [Elektromagnetische-Abschirmung], versuchen Sie WLAN-Verbindungen zu vermeiden (oder benutzen Sie zumindest WPA3 sofern Sie WLAN nutzen möchten/müssen)
+Moderne Hardware (persönliche Empfehlungen: AMD Ryzen 5000 PRO [hab noch keinen, bitte nicht alle kaufen ;)], versuchen Sie eine möglichst moderne CPU zu nutzen), ECC-RAM, abgeschirmte Netzwerk-Kabel (SF/FTP), Benutzen Sie kein Gehäuse mit Plastikseitenpanelen (vollständig aus Metal!, Alternative können Sie Ihr Gehäuse in Alufolie einwickeln [mind. 10 Lagen]). Dies ist nicht optimal aber schonmal ein Anfang für ein Gehäuse. [Elektromagnetische-Abschirmung], versuchen Sie WLAN-Verbindungen zu vermeiden (oder benutzen Sie zumindest WPA3 sofern Sie WLAN nutzen möchten/müssen)
 
 Installieren Sie die neueste Firmware/Bios
 
@@ -215,7 +215,7 @@ Starten Sie Ihren PC neu.
 
 - Starten Sie Ihren PC neu zum Anmeldebildschirm und stecken Sie das Netzwerkkabel ein. Melden Sie sich noch nicht an! Wenn Sie sich bereits vorher mit dem Internet verbunden haben starten Sie GANZ VON VORNE! Warten Sie bis alle Updates installiert sind (ungefähr 10 Minuten)
 
-- Öffenen Go to Windows Update und installieren Sie die Updates welches vorher nicht installiert wurden.
+- Öffnen Sie Windows Update und installieren Sie die Updates welches vorher nicht installiert wurden.
 
 - Gehen Sie in Windows Update und installieren Sie die optionalen Treiber (neuere Treiber)
 
