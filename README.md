@@ -1,3 +1,5 @@
+HOW TO secure your Windows 11 PC
+
 Basic guide for securing/hardening your Windows 11 PC
 
 Prerequisites:
@@ -120,7 +122,19 @@ Scroll down
 
 <img width="306" alt="internet_options_4" src="https://user-images.githubusercontent.com/6840466/149834219-a9417c3a-8d61-4fd5-86a8-4cf2b5f7ec59.png">
 
-9. Create a normal User Account and use it as default (I prefer local accounts)
+9. Restrict Powershell scripts
+
+Execute following commands in the Windows PowerShell:
+
+ "Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope LocalMachine"
+ 
+ "Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser"
+ 
+ "Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope Process"
+ 
+ - Reboot PC
+
+10. Create a normal User Account and use it as default (I prefer local accounts)
 
  - Set UAC to maximum
 
@@ -134,7 +148,7 @@ Scroll down
 
 <img width="510" alt="account5" src="https://user-images.githubusercontent.com/6840466/149799768-6ba85935-27bc-4a2d-8642-d8e25f1bf328.png">
 
-10. Repeat steps 7. and 8. for your normal user account!!!
+11. Repeat steps 7., 8. and 9. for your normal user account!!!
 
 From now on always login with your normal user account!
 
@@ -170,6 +184,8 @@ THE RESISTENCE WILL NEVER DIE. YOU ARE NOT ALONE.
 
 GERMAN TRANSLATION
 Deutsche Anleitung:
+
+HOW TO zur Absicherung Ihre Windows 11 PC
 
 Anleitung zur Sicherung/Härtung eines Windows 11 PC 
 
@@ -290,7 +306,19 @@ Scrollen Sie runter
 
 <img width="306" alt="internet_options_4" src="https://user-images.githubusercontent.com/6840466/149834219-a9417c3a-8d61-4fd5-86a8-4cf2b5f7ec59.png">
 
-9. Erstellen Sie einen normalen Benutzer-Account (Ich bevorzuge lokale Konten)
+9. Powershell-scripts begrenzen
+
+Führen Sie folgende Befehle in der Windows PowerShell aus:
+
+ "Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope LocalMachine"
+ 
+ "Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope CurrentUser"
+ 
+ "Set-ExecutionPolicy -ExecutionPolicy Restricted -Scope Process"
+ 
+ - Reboot PC
+
+10. Erstellen Sie einen normalen Benutzer-Account (Ich bevorzuge lokale Konten)
 
  - Setzen Sie UAC auf die maximale Einstellung
 
@@ -304,7 +332,7 @@ Scrollen Sie runter
 
 <img width="510" alt="account5" src="https://user-images.githubusercontent.com/6840466/149799768-6ba85935-27bc-4a2d-8642-d8e25f1bf328.png">
 
-10. Wiederholen Sie Schritt 8. und 9. für Ihren normal Benutzer-Account!!!
+11. Wiederholen Sie Schritt 8., 9. und 10. für Ihren normal Benutzer-Account!!!
 
 Melden Sie sich ab jetzt immer mit Ihrem normalen Benutzer-Account an.
 
@@ -323,9 +351,9 @@ Anmerkungen:
 
  - Versuchen Sie ein VPN zu nutzen
 
- - Sie können weitere Schritte durchführen um Ihre Privatssphäre zu schützen, welche hier nicht gelistet sind. Diese Anleitung sollte Ihren Windows 11 PC ziemlich gut gegen Hackangriffe abschützen aber Sie können noch immer getracked werden. Nichts ist 100% sicher. Die deutschen (Regierung, Industrie, Milliardäre) sollten Sie nicht mehr hacken können (außer mit teuren 0-days und diese sollten schnell gefixt werden, spielen Sie doch den Honeypot \*g\*), wahrscheinlich aber noch die NSA. Installieren Sie immer die neuesten Updates und machen Sie nicht illegales!
+ - Sie können weitere Schritte durchführen um Ihre Privatssphäre zu schützen, welche hier nicht gelistet sind. Diese Anleitung sollte Ihren Windows 11 PC ziemlich gut gegen Hackangriffe schützen aber Sie können noch immer getracked werden. Nichts ist 100% sicher. Die deutschen (Regierung, Industrie, Milliardäre) sollten Sie nicht mehr hacken können (außer mit teuren 0-days und diese sollten schnell gefixt werden, spielen Sie doch den Honeypot \*g\*), wahrscheinlich aber noch die NSA. Installieren Sie immer die neuesten Updates und machen Sie nicht illegales!
 
-Man hat mich in der Vergangenheit einer Gehirnwäsche unterzogen, kein Scherz!. (Politische Parteien in Deutschland [Ja, alle großen! Sie haben sich damals mit deutschen Milliardären zusammengeschlossen weil ich Ihnen die Wahrheit erzählt habe und einige Dinge wußte welche Sie als "Geheimnisse" (kriminelle Handlungen) bezeichen, wo ich aber der Überzeugung bin dass dies alle Wissen sollten. Sie sind inkompetent, korrupt und feige. Ja ich bin wütdend😡 ]) Ich muste ein paar Jahre trainieren um wieder auf die Beine zu kommen.
+Man hat mich in der Vergangenheit einer Gehirnwäsche unterzogen, kein Scherz!. (Politische Parteien in Deutschland [Ja, alle großen! Sie haben sich damals mit deutschen Milliardären zusammengeschlossen weil ich Ihnen die Wahrheit erzählt habe und einige Dinge wußte welche Sie als "Geheimnisse" (kriminelle Handlungen) bezeichen, wo ich aber der Überzeugung bin dass dies alle Wissen sollten. Sie sind inkompetent, korrupt und feige. Ja ich bin wütend😡 ]) Ich muste ein paar Jahre trainieren um wieder auf die Beine zu kommen.
 
 Schaut euch bitte meinen Facebook-Account https://www.facebook.com/profile.php?id=100070019901989 an.
 
